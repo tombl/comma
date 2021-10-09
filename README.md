@@ -9,9 +9,11 @@ Literally just a tiny wrapper for `pacman` and `fzf` that finds the right packag
 ## Installation
 
 ```sh
-cargo install --git https://github.com/tombl/comma
+git clone https://github.com/tombl/comma
+cd comma
+cargo build --release
+cp target/release/comma ~/.local/bin/,
 ```
-
 
 ## Usage
 
